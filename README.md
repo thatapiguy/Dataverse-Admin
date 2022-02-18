@@ -1,8 +1,5 @@
 # Dataverse Admin
 
-
-
-
 ## Summary
 
 The Dataverse admin app enables admins to easily manage users/teams/security roles/apps and perform some repetitive tasks more efficiently.
@@ -25,11 +22,6 @@ The Dataverse admin app enables admins to easily manage users/teams/security rol
 ![On-Premises Connectors](https://img.shields.io/badge/On--Premises%20Connectors-No-green.svg "Does not use on-premise connectors")
 ![Custom Connectors](https://img.shields.io/badge/Custom%20Connectors-Not%20Required-green.svg "Does not use custom connectors")
 
-## Authors
-
-Solution|Author(s)
---------|---------
-dataverse-admin| [Vivek Bavishi](https://github.com/thatapiguy) ([@that_api_guy](https://twitter.com/that_api_guy))
 
 ## Version history
 
@@ -78,13 +70,7 @@ You can also use the [Power Apps CLI](https://docs.microsoft.com/powerapps/devel
 
 ## Help
 
-We do not support samples, but we this community is always willing to help, and we want to improve these samples. We use GitHub to track issues, which makes it easy for  community members to volunteer their time and help resolve issues.
-
-If you encounter any issues while using this sample, you can [create a new issue](https://github.com/pnp/powerapps-samples/issues/new?assignees=&labels=Needs%3A+Triage+%3Amag%3A%2Ctype%3Abug-suspected&template=bug-report.yml&sample=YOURSAMPLENAME&authors=@YOURGITHUBUSERNAME&title=YOURSAMPLENAME%20-%20).
-
-For questions regarding this sample, [create a new question](https://github.com/pnp/powerapps-samples/issues/new?assignees=&labels=Needs%3A+Triage+%3Amag%3A%2Ctype%3Abug-suspected&template=question.yml&sample=YOURSAMPLENAME&authors=@YOURGITHUBUSERNAME&title=YOURSAMPLENAME%20-%20).
-
-Finally, if you have an idea for improvement, [make a suggestion](https://github.com/pnp/powerapps-samples/issues/new?assignees=&labels=Needs%3A+Triage+%3Amag%3A%2Ctype%3Abug-suspected&template=suggestion.yml&sample=YOURSAMPLENAME&authors=@YOURGITHUBUSERNAME&title=YOURSAMPLENAME%20-%20).
+If you encounter any issues while using this sample, or would like to provide feedback or any ideas, please submit it as an issue on this repository
 
 ## For more information
 
@@ -92,6 +78,5 @@ Finally, if you have an idea for improvement, [make a suggestion](https://github
 - [Power Apps canvas apps documentation](https://docs.microsoft.com/en-us/powerapps/maker/canvas-apps/)
 
 
-<img src="https://telemetry.sharepointpnp.com/powerapps-samples/samples/dataverse-admin" />
 
 ---
