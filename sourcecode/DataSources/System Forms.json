@@ -1,0 +1,230 @@
+[
+  {
+    "CdsFCBContext": "{\"FileType\":true,\"ImageExternalStorage\":true}",
+    "EntitySetName": "systemforms",
+    "IsHidden": false,
+    "IsSampleData": false,
+    "IsWritable": true,
+    "LogicalName": "systemform",
+    "Name": "System Forms",
+    "NativeCDSDataSourceInfoNameMapping": {
+      "ancestorformid": "Parent Form",
+      "componentstate": "Component State",
+      "description": "Description",
+      "form_ancestor_form": "System Forms",
+      "formactivationstate": "Form State",
+      "formid": "FormId",
+      "formidunique": "FormIdUnique",
+      "formjson": "FormJson",
+      "formpresentation": "AIR Refreshed",
+      "formxml": "FormXml",
+      "introducedversion": "Introduced Version",
+      "isairmerged": "Refreshed",
+      "isdefault": "Default Form",
+      "isdesktopenabled": "Is Desktop Enabled",
+      "ismanaged": "State",
+      "istabletenabled": "Is Tablet Enabled",
+      "name": "Name",
+      "organizationid": "OrganizationId",
+      "overwritetime": "Record Overwrite Time",
+      "publishedon": "Published On",
+      "solutionid": "Solution",
+      "SystemForm_AsyncOperations": "System Jobs",
+      "SystemForm_BulkDeleteFailures": "Bulk Delete Failures",
+      "type": "Form Type",
+      "uniquename": "Unique Name",
+      "version": "Version",
+      "versionnumber": "VersionNumber"
+    },
+    "PreferredName": "System Forms",
+    "Type": "NativeCDSDataSourceInfo"
+  },
+  {
+    "DisplayName": "System Forms (Views)",
+    "Name": "_systemform_views",
+    "RelatedEntityName": "System Forms",
+    "TrimmedViewName": true,
+    "Type": "ViewInfo",
+    "ViewInfoNameMapping": {
+      "01d968d8-9333-4cd5-89ba-8583063e98cf": "Inactive Forms",
+      "2ff1bdd2-f1e1-4861-b45f-cc5470d4b211": "All Forms",
+      "4087e745-b16e-4317-a4e1-7b9b0022b211": "Forms Lookup View",
+      "fc4f7f68-f656-47b6-bd98-a6ebb9745f92": "Task Flow Forms",
+      "fd7b2a9a-5522-4222-8507-de263b653e23": "Active Forms"
+    }
+  },
+  {
+    "DisplayName": "Form State (System Forms)",
+    "Name": "systemform_formactivationstate",
+    "OptionSetInfoNameMapping": {
+      "0": "Inactive",
+      "1": "Active"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "formactivationstate",
+        "OptionSetReferenceEntityName": "System Forms"
+      }
+    },
+    "OptionSetTypeKey": "PicklistType",
+    "RelatedColumnInvariantName": "formactivationstate",
+    "RelatedEntityName": "System Forms",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "AIR Refreshed (System Forms)",
+    "Name": "systemform_formpresentation",
+    "OptionSetInfoNameMapping": {
+      "0": "ClassicForm",
+      "1": "AirForm",
+      "2": "ConvertedICForm"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "formpresentation",
+        "OptionSetReferenceEntityName": "System Forms"
+      }
+    },
+    "OptionSetTypeKey": "PicklistType",
+    "RelatedColumnInvariantName": "formpresentation",
+    "RelatedEntityName": "System Forms",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Refreshed (System Forms)",
+    "Name": "systemform_isairmerged",
+    "OptionSetInfoNameMapping": {
+      "0": "No",
+      "1": "Yes"
+    },
+    "OptionSetIsBooleanValued": true,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "isairmerged",
+        "OptionSetReferenceEntityName": "System Forms"
+      }
+    },
+    "OptionSetTypeKey": "BooleanType",
+    "RelatedColumnInvariantName": "isairmerged",
+    "RelatedEntityName": "System Forms",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Default Form (System Forms)",
+    "Name": "systemform_isdefault",
+    "OptionSetInfoNameMapping": {
+      "0": "No",
+      "1": "Yes"
+    },
+    "OptionSetIsBooleanValued": true,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "isdefault",
+        "OptionSetReferenceEntityName": "System Forms"
+      }
+    },
+    "OptionSetTypeKey": "BooleanType",
+    "RelatedColumnInvariantName": "isdefault",
+    "RelatedEntityName": "System Forms",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Is Desktop Enabled (System Forms)",
+    "Name": "systemform_isdesktopenabled",
+    "OptionSetInfoNameMapping": {
+      "0": "No",
+      "1": "Yes"
+    },
+    "OptionSetIsBooleanValued": true,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "isdesktopenabled",
+        "OptionSetReferenceEntityName": "System Forms"
+      }
+    },
+    "OptionSetTypeKey": "BooleanType",
+    "RelatedColumnInvariantName": "isdesktopenabled",
+    "RelatedEntityName": "System Forms",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Is Tablet Enabled (System Forms)",
+    "Name": "systemform_istabletenabled",
+    "OptionSetInfoNameMapping": {
+      "0": "No",
+      "1": "Yes"
+    },
+    "OptionSetIsBooleanValued": true,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "istabletenabled",
+        "OptionSetReferenceEntityName": "System Forms"
+      }
+    },
+    "OptionSetTypeKey": "BooleanType",
+    "RelatedColumnInvariantName": "istabletenabled",
+    "RelatedEntityName": "System Forms",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Entity Name (System Forms)",
+    "Name": "systemform_objecttypecode",
+    "OptionSetInfoNameMapping": {},
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "objecttypecode",
+        "OptionSetReferenceEntityName": "System Forms"
+      }
+    },
+    "OptionSetTypeKey": "EntityNameType",
+    "RelatedColumnInvariantName": "objecttypecode",
+    "RelatedEntityName": "System Forms",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Form Type (System Forms)",
+    "Name": "systemform_type",
+    "OptionSetInfoNameMapping": {
+      "0": "Dashboard",
+      "1": "AppointmentBook",
+      "10": "InteractionCentricDashboard",
+      "100": "Other",
+      "101": "MainBackup",
+      "102": "AppointmentBookBackup",
+      "103": "Power BI Dashboard",
+      "11": "Card",
+      "12": "Main - Interactive experience",
+      "13": "Contextual Dashboard",
+      "2": "Main",
+      "3": "MiniCampaignBO",
+      "4": "Preview",
+      "5": "Mobile - Express",
+      "6": "Quick View Form",
+      "7": "Quick Create",
+      "8": "Dialog",
+      "9": "Task Flow Form"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "type",
+        "OptionSetReferenceEntityName": "System Forms"
+      }
+    },
+    "OptionSetTypeKey": "PicklistType",
+    "RelatedColumnInvariantName": "type",
+    "RelatedEntityName": "System Forms",
+    "Type": "OptionSetInfo"
+  }
+]
