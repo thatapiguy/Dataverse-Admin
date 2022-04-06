@@ -8,6 +8,7 @@ The Dataverse admin app enables admins to easily manage users/teams/security rol
 ![picture of the sample](assets/home-screenshot.png)
 ![picture of the sample](assets/manage-users-screenshot.png)
 ![picture of the sample](assets/copyroles-screenshot.png)
+![picture of the sample](assets/environment-variables.png)
 
 ## Applies to
 
@@ -27,6 +28,7 @@ The Dataverse admin app enables admins to easily manage users/teams/security rol
 
 Version|Date|Comments
 -------|----|--------
+1.0.1| Apr 6, 2022|Added an option to search for user in the Apps screen and added a new manage environment variables screen
 1.0|Feb 17, 2022|Initial release
 
 ## Features
@@ -37,6 +39,7 @@ All the following operations can be performed using this app:
 * Copy Security roles from one user/team to another.
 * Add users to an environment.
 * Manage app permissions for all the apps in a tenant.
+* Manage all environment variables from a single place.
 
 ## Prerequisites
 
